@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cotización | AXIS NETWORK</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="topbar">
+    <div class="brand">AXIS<span>NETWORK</span></div>
+
+    <div class="nav-menu">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Servicios</a>
+        <a href="login.html" class="login-btn">Login</a>
+    </div>
+</nav>
+
+<section class="cart-page">
+
+    <div class="cart-header">
+        <span class="tag">Tu cotización</span>
+        <h1>Servicios seleccionados</h1>
+        <p>Revisa los servicios antes de continuar con el pago.</p>
+    </div>
+
+    <div class="cart-layout">
+
+        <div class="cart-list" id="carrito-container"></div>
+
+        <aside class="cart-summary">
+            <h2>Resumen</h2>
+
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <strong id="subtotal">$0 MXN</strong>
+            </div>
+
+            <div class="summary-row">
+                <span>Diagnóstico inicial</span>
+                <strong>Gratis</strong>
+            </div>
+
+            <div class="summary-line"></div>
+
+            <div class="summary-total">
+                <span>Total</span>
+                <strong id="total">$0 MXN</strong>
+            </div>
+
+            <button onclick="checkout()" class="checkout-btn">
+                Proceder al pago
+            </button>
+
+            <a href="productos.html" class="continue-link">
+                Agregar más servicios
+            </a>
+        </aside>
+
+    </div>
+
+</section>
+
+<script src="js/carrito.js"></script>
+</body>
+</html>

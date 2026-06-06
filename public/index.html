@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios | AXIS NETWORK</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="topbar">
+    <div class="brand">TECH<span>SERVICE</span></div>
+
+    <div class="nav-menu">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Servicios</a>
+        <a href="carrito.html">Carrito</a>
+        <a href="login.html" class="login-btn">Login</a>
+    </div>
+</nav>
+
+<section class="cart-page">
+    <div class="cart-header">
+        <span class="tag">Catálogo técnico</span>
+        <h1>Servicios disponibles</h1>
+        <p>Elige los servicios que necesitas y agrégalos a tu cotización.</p>
+    </div>
+
+    <div class="products">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=900" alt="Mantenimiento preventivo">
+            <h3>Mantenimiento preventivo</h3>
+            <p>$350 MXN</p>
+            <button onclick="agregarCarrito('Mantenimiento preventivo',350,'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=900')">Agregar</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=900" alt="Formateo e instalación">
+            <h3>Formateo e instalación de Windows</h3>
+            <p>$500 MXN</p>
+            <button onclick="agregarCarrito('Formateo e instalación de Windows',500,'https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=900')">Agregar</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=900" alt="Actualización SSD">
+            <h3>Actualización a SSD</h3>
+            <p>$700 MXN</p>
+            <button onclick="agregarCarrito('Actualización a SSD',700,'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=900')">Agregar</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=900" alt="Instalación de software">
+            <h3>Instalación de software</h3>
+            <p>$250 MXN</p>
+            <button onclick="agregarCarrito('Instalación de software',250,'https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=900')">Agregar</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=900" alt="Eliminación de virus">
+            <h3>Eliminación de virus</h3>
+            <p>$300 MXN</p>
+            <button onclick="agregarCarrito('Eliminación de virus',300,'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=900')">Agregar</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=900" alt="Optimización gamer">
+            <h3>Optimización gamer</h3>
+            <p>$400 MXN</p>
+            <button onclick="agregarCarrito('Optimización gamer',400,'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=900')">Agregar</button>
+        </div>
+
+    </div>
+</section>
+
+<script src="js/carrito.js"></script>
+</body>
+</html>

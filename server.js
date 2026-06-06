@@ -30,8 +30,8 @@ app.post('/crear-checkout-session', async (req, res) => {
             payment_method_types: ['card'],
             mode: 'payment',
             line_items,
-            success_url: 'http://localhost:3000/success.html',
-            cancel_url: 'http://localhost:3000/carrito.html'
+            success_url: 'https://techservice-pro.onrender.com/success.html',
+            cancel_url: 'https://techservice-pro.onrender.com/carrito.html'
         });
 
         res.json({ url: session.url });

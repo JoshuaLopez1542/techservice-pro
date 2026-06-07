@@ -83,7 +83,7 @@ async function checkout(){
     }
 
     try{
-        const response = await fetch('http://localhost:3000/crear-checkout-session', {
+        const response = await fetch('/crear-checkout-session', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
